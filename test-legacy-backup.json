@@ -1,0 +1,322 @@
+{
+  "id": "8adac853-9ccc-4612-bc4a-7bd9cacb45b7",
+  "name": "v0.2 backup fixture",
+  "created": "2026-11-20T19:08:54.162Z",
+  "updated": "2026-11-20T19:08:54.163Z",
+  "divisions": [
+    {
+      "id": "1fe4a142-f27d-40ec-a39e-1fdb25a78709",
+      "name": "Legacy round robin",
+      "format": "round",
+      "scoring": {
+        "mode": "high",
+        "bestOf": 3,
+        "draws": true,
+        "winPoints": 3,
+        "drawPoints": 1
+      },
+      "participants": [
+        {
+          "id": "d724d056-008c-475b-a4f6-929b93adb5ff",
+          "name": "A",
+          "organization": "",
+          "members": [],
+          "seed": 1
+        },
+        {
+          "id": "420cfe3a-0819-464e-a37a-a45c0ce984c9",
+          "name": "B",
+          "organization": "",
+          "members": [],
+          "seed": 2
+        },
+        {
+          "id": "3a765f96-c437-4f4a-8c17-c5af81d0137a",
+          "name": "C",
+          "organization": "",
+          "members": [],
+          "seed": 3
+        },
+        {
+          "id": "304a4fce-cecf-4696-a6fb-53036a9a0b19",
+          "name": "D",
+          "organization": "",
+          "members": [],
+          "seed": 4
+        }
+      ],
+      "rounds": [
+        {
+          "name": "Round 1",
+          "matches": [
+            {
+              "id": "c33aef72-ab8d-4612-bb62-bf84df43b6ba",
+              "round": 0,
+              "index": 0,
+              "sources": [
+                {
+                  "participant": "d724d056-008c-475b-a4f6-929b93adb5ff"
+                },
+                {
+                  "participant": "304a4fce-cecf-4696-a6fb-53036a9a0b19"
+                }
+              ],
+              "result": {
+                "a": "d724d056-008c-475b-a4f6-929b93adb5ff",
+                "b": "304a4fce-cecf-4696-a6fb-53036a9a0b19",
+                "scoreA": 3,
+                "scoreB": 1,
+                "winner": "d724d056-008c-475b-a4f6-929b93adb5ff",
+                "reason": "score"
+              }
+            },
+            {
+              "id": "3ee1e067-1fa9-4e53-8d31-0e71125e37c7",
+              "round": 0,
+              "index": 1,
+              "sources": [
+                {
+                  "participant": "420cfe3a-0819-464e-a37a-a45c0ce984c9"
+                },
+                {
+                  "participant": "3a765f96-c437-4f4a-8c17-c5af81d0137a"
+                }
+              ],
+              "result": null
+            }
+          ]
+        },
+        {
+          "name": "Round 2",
+          "matches": [
+            {
+              "id": "8e99e20a-1759-4a26-a86d-eec98f08120a",
+              "round": 1,
+              "index": 0,
+              "sources": [
+                {
+                  "participant": "3a765f96-c437-4f4a-8c17-c5af81d0137a"
+                },
+                {
+                  "participant": "d724d056-008c-475b-a4f6-929b93adb5ff"
+                }
+              ],
+              "result": null
+            },
+            {
+              "id": "7cfec5c9-9785-46d2-a41a-0021871b6293",
+              "round": 1,
+              "index": 1,
+              "sources": [
+                {
+                  "participant": "304a4fce-cecf-4696-a6fb-53036a9a0b19"
+                },
+                {
+                  "participant": "420cfe3a-0819-464e-a37a-a45c0ce984c9"
+                }
+              ],
+              "result": null
+            }
+          ]
+        },
+        {
+          "name": "Round 3",
+          "matches": [
+            {
+              "id": "33d3177f-67c1-491d-a627-bb311657f71d",
+              "round": 2,
+              "index": 0,
+              "sources": [
+                {
+                  "participant": "d724d056-008c-475b-a4f6-929b93adb5ff"
+                },
+                {
+                  "participant": "420cfe3a-0819-464e-a37a-a45c0ce984c9"
+                }
+              ],
+              "result": null
+            },
+            {
+              "id": "b11acea1-cd60-4820-9cd9-1846445c326d",
+              "round": 2,
+              "index": 1,
+              "sources": [
+                {
+                  "participant": "3a765f96-c437-4f4a-8c17-c5af81d0137a"
+                },
+                {
+                  "participant": "304a4fce-cecf-4696-a6fb-53036a9a0b19"
+                }
+              ],
+              "result": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "e149e47c-0756-49b9-afeb-9d7784341062",
+      "name": "Legacy single elimination",
+      "format": "single",
+      "scoring": {
+        "mode": "high",
+        "bestOf": 3,
+        "draws": true,
+        "winPoints": 3,
+        "drawPoints": 1
+      },
+      "participants": [
+        {
+          "id": "ea2ca303-f349-4fb6-9c86-30b2f574bf72",
+          "name": "A",
+          "organization": "",
+          "members": [],
+          "seed": 1
+        },
+        {
+          "id": "36862cd6-68df-4041-8e16-ce6f5bc48660",
+          "name": "B",
+          "organization": "",
+          "members": [],
+          "seed": 2
+        },
+        {
+          "id": "fd2bd92f-63c2-4d8c-abe9-1e5b1f8ed035",
+          "name": "C",
+          "organization": "",
+          "members": [],
+          "seed": 3
+        },
+        {
+          "id": "20f327f1-e753-410f-9196-5e71dced9923",
+          "name": "D",
+          "organization": "",
+          "members": [],
+          "seed": 4
+        },
+        {
+          "id": "5dbe4612-22dc-4171-bd83-3d383ab92199",
+          "name": "E",
+          "organization": "",
+          "members": [],
+          "seed": 5
+        }
+      ],
+      "rounds": [
+        {
+          "name": "Quarterfinals",
+          "matches": [
+            {
+              "id": "bad43ad6-7d1a-47b0-8ba5-e28999b76bdd",
+              "round": 0,
+              "index": 0,
+              "sources": [
+                {
+                  "participant": "ea2ca303-f349-4fb6-9c86-30b2f574bf72"
+                },
+                {
+                  "participant": null
+                }
+              ],
+              "result": null
+            },
+            {
+              "id": "754dbfa2-53c9-4bb4-9272-fe0d5bb78c63",
+              "round": 0,
+              "index": 1,
+              "sources": [
+                {
+                  "participant": "20f327f1-e753-410f-9196-5e71dced9923"
+                },
+                {
+                  "participant": "5dbe4612-22dc-4171-bd83-3d383ab92199"
+                }
+              ],
+              "result": null
+            },
+            {
+              "id": "939f193b-5f23-482e-9614-957b347256cb",
+              "round": 0,
+              "index": 2,
+              "sources": [
+                {
+                  "participant": "36862cd6-68df-4041-8e16-ce6f5bc48660"
+                },
+                {
+                  "participant": null
+                }
+              ],
+              "result": null
+            },
+            {
+              "id": "8bf6c249-ca4e-4f85-b260-f8f6bef2e433",
+              "round": 0,
+              "index": 3,
+              "sources": [
+                {
+                  "participant": "fd2bd92f-63c2-4d8c-abe9-1e5b1f8ed035"
+                },
+                {
+                  "participant": null
+                }
+              ],
+              "result": null
+            }
+          ]
+        },
+        {
+          "name": "Semifinals",
+          "matches": [
+            {
+              "id": "d8778c3d-9758-415a-bfc7-0bbcd56ae052",
+              "round": 1,
+              "index": 0,
+              "sources": [
+                {
+                  "winnerOf": "bad43ad6-7d1a-47b0-8ba5-e28999b76bdd"
+                },
+                {
+                  "winnerOf": "754dbfa2-53c9-4bb4-9272-fe0d5bb78c63"
+                }
+              ],
+              "result": null
+            },
+            {
+              "id": "5893157f-f46a-4e3e-a4b8-f5eb423a735a",
+              "round": 1,
+              "index": 1,
+              "sources": [
+                {
+                  "winnerOf": "939f193b-5f23-482e-9614-957b347256cb"
+                },
+                {
+                  "winnerOf": "8bf6c249-ca4e-4f85-b260-f8f6bef2e433"
+                }
+              ],
+              "result": null
+            }
+          ]
+        },
+        {
+          "name": "Final",
+          "matches": [
+            {
+              "id": "a638ed72-0be7-47ea-9ca0-3b39761504d6",
+              "round": 2,
+              "index": 0,
+              "sources": [
+                {
+                  "winnerOf": "d8778c3d-9758-415a-bfc7-0bbcd56ae052"
+                },
+                {
+                  "winnerOf": "5893157f-f46a-4e3e-a4b8-f5eb423a735a"
+                }
+              ],
+              "result": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
